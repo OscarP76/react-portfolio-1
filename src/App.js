@@ -1,10 +1,15 @@
+import Nav from './components/Navigation'
 import Header from './components/Header'
+import Footer from './components/Footer'
+import Card from './components/Project'
 
 function App() {
   return (
     <>
+      <Nav />
       <Header />
-      <h1>Super Cool Portfolio</h1>
+      <Card />
+      <Footer />
     </>
   )
 }
