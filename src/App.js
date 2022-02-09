@@ -1,6 +1,11 @@
+import Header from './components/Header'
+
 function App() {
   return (
-    <h1>Super Cool Portfolio</h1>
+    <>
+      <Header />
+      <h1>Super Cool Portfolio</h1>
+    </>
   )
 }
 
