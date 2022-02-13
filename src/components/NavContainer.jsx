@@ -28,7 +28,6 @@ function NavContainer() {
   return (
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      <Header />
       {renderPage()}
       <Footer />
     </div>
