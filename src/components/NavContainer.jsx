@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Header from './Header'
-import Navigation from './Navigation'
 import Home from './Home'
 import About from './About'
 import Project from './Project'
@@ -27,7 +26,7 @@ function NavContainer() {
 
   return (
     <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
     </div>
